@@ -1,0 +1,95 @@
+{
+  "indicatif": {
+    "present": {
+      "augment": "",
+      "suffix": "",
+      "desinences": {
+        "sg": {
+          "1": "ω",
+          "2": "εις",
+          "3": "ει"
+        },
+        "pl": {
+          "1": "ομεν",
+          "2": "ετε",
+          "3": "ουσι(ν)"
+        }
+      }
+    },
+    "imparfait": {
+      "augment": "ἐ",
+      "suffix": "",
+      "desinences": [
+        "ον",
+        "ες",
+        "ε(ν)",
+        "ομεν",
+        "εσθε",
+        "ον"
+      ]
+    },
+    "futur": {
+      "augment": "",
+      "suffix": "σ",
+      "desinences": [
+        "ω",
+        "εις",
+        "ει",
+        "ομεν",
+        "ετε",
+        "ουσι(ν)"
+      ]
+    },
+    "aoriste": {
+      "augment": "ἐ",
+      "suffix": "σ",
+      "desinences": [
+        "α",
+        "ας",
+        "ε(ν)",
+        "αμεν",
+        "ασθε",
+        "αν"
+      ]
+    }
+  },
+
+  "imperatif": {
+    "present": {
+      "augment": "",
+      "suffix": "",
+      "desinences": ["ε", "ετε"]
+    },
+    "aoriste": {
+      "augment": "",
+      "suffix": "σ",
+      "desinences": ["ον", "ατε"]
+    }
+  },
+
+  "infinitif": {
+    "present": {
+      "augment": "",
+      "suffix": "",
+      "desinences": ["ειν"]
+    },
+    "aoriste": {
+      "augment": "",
+      "suffix": "σ",
+      "desinences": ["ας"]
+    }
+  },
+
+  "participe": {
+    "present": {
+      "augment": "",
+      "suffix": "",
+      "desinences": ["ων", "οντες"]
+    },
+    "aoriste": {
+      "augment": "",
+      "suffix": "σ",
+      "desinences": ["ας", "αντες"]
+    }
+  }
+}
