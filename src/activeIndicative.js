@@ -1,19 +1,7 @@
 import desinences from './desinences'
 import getStem from './getStem'
+import { arrayToConjugationPattern } from './utils'
 
-
-let conjugationPattern = {
-  sg: {
-    1: '',
-    2: '',
-    3: ''
-  },
-  pl: {
-    1: '',
-    2: '',
-    3: ''
-  }
-}
 
 function contraction(stem, desinence) {
   let contractions = {
@@ -22,8 +10,7 @@ function contraction(stem, desinence) {
       'ου': 'ου',
       'ε': 'ει',
       'ο': 'ου',
-      'ω': 'ω',
-
+      'ω': 'ω'
     }
   }
 
@@ -45,18 +32,31 @@ function contraction(stem, desinence) {
   }
 }
 
-export function indicativePresent(verb) {
+export function activeIndicativePresent(verb) {
   let verbInfo = getStem(verb)
-  let conjugation = conjugationPattern
+  let conjugation = []
 
   if (verbInfo.type === '-ω') {
-
-    for (let nb in conjugation) {
-      for (let pers in conjugation[nb]) {
-        conjugation[nb][pers] = contraction(verbInfo.stem, desinences.indicatif.present.desinences[nb][pers])
-      }
-    }
+    const endings = ["ω", "εις", "ει", "ομεν", "ετε", "ουσι(ν)"]
+    conjugation = endings.map(ending => {
+      return contraction(verbInfo.stem, ending)
+    })
   }
 
-  return conjugation
+  return arrayToConjugationPattern(conjugation)
 }
+
+// export function indicativeFuture(verb) {
+//   let verbInfo = getStem(verb)
+//   let conjugation = conjugationPattern
+
+//   if (verbInfo.type === '-ω') {
+//     for (let nb in conjugation) {
+//       for (let pers in conjugation[nb]) {
+//         conjugation[nb][pers] = contraction(verbInfo.stem, desinences.indicatif.present.desinences[nb][pers])
+//       }
+//     }
+//   }
+
+//   return conjugation
+// }

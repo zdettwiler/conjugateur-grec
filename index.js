@@ -1,4 +1,3 @@
-import desinences from './src/desinences'
-import { indicativePresent } from './src/indicative'
+import conjugate from './src/conjugate'
 
-console.log(indicativePresent('φιλεω'))
+console.log(conjugate('φιλεω').active.indicative.present)

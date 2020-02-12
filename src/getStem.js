@@ -5,7 +5,7 @@ export default function getStem(verb) {
     type: ''
   }
 
-  if (verb.substring(verb.length-1, verb.length) === 'ω') {
+  if (verb.endsWith('ω')) {
     verbInfo.stem = verb.substring(0, verb.length-1)
     verbInfo.type = '-ω'
   }

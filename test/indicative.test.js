@@ -1,9 +1,8 @@
-import { indicativePresent } from '../src/indicative'
+import { activeIndicativePresent } from '../src/activeindicative'
 
 describe('indicativePresent()', () => {
-
   it('should conjugate λυω properly', () => {
-    expect(indicativePresent('λυω')).toEqual({
+    expect(activeIndicativePresent('λυω')).toEqual({
       sg: {
         1: 'λυω',
         2: 'λυεις',
@@ -18,7 +17,7 @@ describe('indicativePresent()', () => {
   })
 
   it('should conjugate φιλεω properly', () => {
-    expect(indicativePresent('φιλεω')).toEqual({
+    expect(activeIndicativePresent('φιλεω')).toEqual({
       sg: {
         1: 'φιλω',
         2: 'φιλεις',
@@ -32,3 +31,20 @@ describe('indicativePresent()', () => {
     })
   })
 })
+
+// describe('indicativeFuture()', () => {
+//   it('should conjugate λυω properly', () => {
+//     expect(indicativeFuture('λυω')).toEqual({
+//       sg: {
+//         1: 'λυω',
+//         2: 'λυεις',
+//         3: 'λυει'
+//       },
+//       pl: {
+//         1: 'λυομεν',
+//         2: 'λυετε',
+//         3: 'λυουσι(ν)'
+//       }
+//     })
+//   })
+// })
