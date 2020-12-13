@@ -10,13 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/node": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "jest": "^24.8.0",
-    "nodemon": "^1.19.1"
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.2.0"
   }
 }

@@ -1,4 +1,19 @@
-import { arrayToConjugationPattern } from '../src/utils'
+import {
+  getStem,
+  arrayToConjugationPattern
+} from '../src/utils'
+
+describe('getStem()', () => {
+  it('should return stem and type', () => {
+    expect(getStem('λυω')).toEqual(
+      expect.objectContaining({
+        verb: 'λυω',
+        stem: 'λυ',
+        type: '-ω'
+      })
+    )
+  })
+})
 
 describe('arrayToConjugationPattern()', () => {
   it('returns conjugation pattern object', () => {
@@ -20,3 +35,5 @@ describe('arrayToConjugationPattern()', () => {
     expect(arrayToConjugationPattern(['', ''])).toEqual(undefined)
   })
 })
+
+

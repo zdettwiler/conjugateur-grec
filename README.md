@@ -39,9 +39,3 @@ Present | Future   | Imperfect | Aorist    | Perfect
 ῥυομεθα | ῥυσομεθα | ἐρυομεθα  | ἐρυσαμεθα | ῥερυμεθα
 ῥυεσθε  | ῥυσεσθε  | ἐρυεσθε   | ἐρυσασθε  | ῥερυσθε
 ῥυονται | ῥυσονται | ἐρυοντο   | ἐρυσαντο  | ῥερυνται
-
-
-## Strategy
-- Each tense has its own function and deals with everything.
-? A master json with all augments, suffixes and endings and each function will just pick the right data.
-? 

@@ -1,0 +1,91 @@
+{
+  "active": {
+    "indicative": {
+      "present": {
+        "augment": "",
+        "suffix": "",
+        "endings": ["ω", "εις", "ει", "ομεν", "ετε", "ουσι(ν)"],
+        "endings_obj": {
+          "sg": {
+            "1": "ω",
+            "2": "εις",
+            "3": "ει"
+          },
+          "pl": {
+            "1": "ομεν",
+            "2": "ετε",
+            "3": "ουσι(ν)"
+          }
+        }
+      },
+      "imperfect": {
+        "augment": "ἐ",
+        "suffix": "",
+        "endings": ["ον", "ες", "ε(ν)", "ομεν", "ετε", "ον"]
+      },
+      "future": {
+        "augment": "",
+        "suffix": "σ",
+        "endings": [
+          "ω",
+          "εις",
+          "ει",
+          "ομεν",
+          "ετε",
+          "ουσι(ν)"
+        ]
+      },
+      "aorist": {
+        "augment": "ἐ",
+        "suffix": "σ",
+        "endings": [
+          "α",
+          "ας",
+          "ε(ν)",
+          "αμεν",
+          "ασθε",
+          "αν"
+        ]
+      }
+    },
+
+    "imperative": {
+      "present": {
+        "augment": "",
+        "suffix": "",
+        "endings": ["", "ε", "", "", "ετε", ""]
+      },
+      "aorist": {
+        "augment": "",
+        "suffix": "σ",
+        "endings": ["", "ον", "", "", "ατε", ""]
+      }
+    },
+
+    "infinitif": {
+      "present": {
+        "augment": "",
+        "suffix": "",
+        "endings": ["ειν"]
+      },
+      "aoriste": {
+        "augment": "",
+        "suffix": "σ",
+        "endings": ["ας"]
+      }
+    },
+
+    "participe": {
+      "present": {
+        "augment": "",
+        "suffix": "",
+        "endings": ["ων", "οντες"]
+      },
+      "aoriste": {
+        "augment": "",
+        "suffix": "σ",
+        "endings": ["ας", "αντες"]
+      }
+    }
+  }
+}
