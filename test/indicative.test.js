@@ -50,6 +50,21 @@ describe('Active', () => {
       })
     })
 
+    it('Aorist - λυω', () => {
+      expect(luo.active.indicative.aorist).toEqual({
+        sg: {
+          1: 'ἐλυσα',
+          2: 'ἐλυσας',
+          3: 'ἐλυσε(ν)'
+        },
+        pl: {
+          1: 'ἐλυσαμεν',
+          2: 'ἐλυσατε',
+          3: 'ἐλυσαν'
+        }
+      })
+    })
+
     it('Present - φιλεω', () => {
       expect(phileo.active.indicative.present).toEqual({
         sg: {

@@ -5,11 +5,12 @@ export const VOICE = {
 }
 
 export const MOOD = {
-  INDICATIVE: 'indicative',
+  INDICATIVE: 'indicative'
 }
 
 export const TENSE = {
   PRESENT: 'present',
   FUTURE: 'future',
-  IMPERFECT: 'imperfect'
+  IMPERFECT: 'imperfect',
+  AORIST: 'aorist'
 }
