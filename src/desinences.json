@@ -3,7 +3,8 @@
     "present": {
       "augment": "",
       "suffix": "",
-      "desinences": {
+      "endings": ["ω", "εις", "ει", "ομεν", "ετε", "ουσι(ν)"],
+      "endings_obj": {
         "sg": {
           "1": "ω",
           "2": "εις",
@@ -19,7 +20,7 @@
     "imparfait": {
       "augment": "ἐ",
       "suffix": "",
-      "desinences": [
+      "endings": [
         "ον",
         "ες",
         "ε(ν)",
@@ -31,7 +32,7 @@
     "futur": {
       "augment": "",
       "suffix": "σ",
-      "desinences": [
+      "endings": [
         "ω",
         "εις",
         "ει",
@@ -43,7 +44,7 @@
     "aoriste": {
       "augment": "ἐ",
       "suffix": "σ",
-      "desinences": [
+      "endings": [
         "α",
         "ας",
         "ε(ν)",
@@ -58,12 +59,12 @@
     "present": {
       "augment": "",
       "suffix": "",
-      "desinences": ["ε", "ετε"]
+      "endings": ["ε", "ετε"]
     },
     "aoriste": {
       "augment": "",
       "suffix": "σ",
-      "desinences": ["ον", "ατε"]
+      "endings": ["ον", "ατε"]
     }
   },
 
@@ -71,12 +72,12 @@
     "present": {
       "augment": "",
       "suffix": "",
-      "desinences": ["ειν"]
+      "endings": ["ειν"]
     },
     "aoriste": {
       "augment": "",
       "suffix": "σ",
-      "desinences": ["ας"]
+      "endings": ["ας"]
     }
   },
 
@@ -84,12 +85,12 @@
     "present": {
       "augment": "",
       "suffix": "",
-      "desinences": ["ων", "οντες"]
+      "endings": ["ων", "οντες"]
     },
     "aoriste": {
       "augment": "",
       "suffix": "σ",
-      "desinences": ["ας", "αντες"]
+      "endings": ["ας", "αντες"]
     }
   }
 }
