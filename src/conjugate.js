@@ -3,18 +3,15 @@ import desinences from './desinences'
 import getStem from './getStem'
 import { arrayToConjugationPattern } from './utils'
 
-const VOICE_ACTIVE = 'VOICE_ACTIVE'
-const MOOD_INDICATIVE = 'indicatif'
-const TENSE_PRESENT = 'present'
-const TENSE_FUTURE = 'futur'
+import { VOICE, MOOD, TENSE } from './constants'
 
 export default function conjugate(verb) {
   return {
     active: {
       indicative: {
         // present: activeIndicativePresent(verb)
-        present: conjugator(verb, VOICE_ACTIVE, MOOD_INDICATIVE, TENSE_PRESENT),
-        future: conjugator(verb, VOICE_ACTIVE, MOOD_INDICATIVE, TENSE_FUTURE),
+        present: conjugator(verb, VOICE.ACTIVE, MOOD.INDICATIVE, TENSE.PRESENT),
+        future: conjugator(verb, VOICE.ACTIVE, MOOD.INDICATIVE, TENSE.FUTURE),
 
       }
     }

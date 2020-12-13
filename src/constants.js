@@ -1,6 +1,14 @@
-export const modes = {
-  Indicatif: ['Présent', 'Futur', 'Imparfait', 'Aoriste'],
-  Impératif: ['Présent', 'Futur', 'Imparfait', 'Aoriste'],
-  Infinitif: ['Présent', 'Aoriste'],
-  Participe: ['Présent', 'Aoriste']
+export const VOICE = {
+  ACTIVE: 'active',
+  MIDDLE: 'middle',
+  PASSIVE: 'passive'
+}
+
+export const MOOD = {
+  INDICATIVE: 'indicatif',
+}
+
+export const TENSE = {
+  PRESENT: 'present',
+  FUTURE: 'futur'
 }
