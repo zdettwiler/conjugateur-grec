@@ -3,7 +3,9 @@ import {
   getStem,
   arrayToConjugationPattern,
   contractAugment,
-  contractEnding
+  contractSuffix,
+  contractEnding,
+  reduplication
  } from './utils'
 import { VOICE, MOOD, TENSE } from './constants'
 
@@ -13,9 +15,19 @@ export default function conjugator(verb, voice, mood, tense) {
 
   if (verbInfo.type === '-ω') {
     const conjugation_settings = conjugation_endings[voice][mood][tense]
+    
+    if (conjugation_settings.reduplication) {
+      verbInfo.stem = reduplication(verbInfo.stem)
+    }
 
     conjugation = conjugation_settings.endings.map(ending => {
-      return contractEnding(conjugation_settings.augment + verbInfo.stem + conjugation_settings.suffix, ending)
+      return contractEnding(
+        contractAugment(
+          conjugation_settings.augment,
+          contractSuffix(verbInfo.stem, conjugation_settings.suffix)
+        ),
+        ending
+      )
     })
   }
 
