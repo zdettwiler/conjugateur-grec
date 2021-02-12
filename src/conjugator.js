@@ -21,13 +21,15 @@ export default function conjugator(verb, voice, mood, tense) {
     }
 
     conjugation = conjugation_settings.endings.map(ending => {
-      return contractEnding(
-        contractAugment(
-          conjugation_settings.augment,
-          contractSuffix(verbInfo.stem, conjugation_settings.suffix)
-        ),
-        ending
-      )
+      return ending
+        ? contractEnding(
+          contractAugment(
+            conjugation_settings.augment,
+            contractSuffix(verbInfo.stem, conjugation_settings.suffix)
+          ),
+          ending
+        )
+        : undefined
     })
   }
 

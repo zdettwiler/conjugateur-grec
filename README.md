@@ -3,9 +3,9 @@
 ## Active
 .           | Present | Future | Imperfect | Aorist | Perfect | Pluperfect
 ------------|:-------:|:------:|:---------:|:------:|:-------:|:----------:
-Indicative  | ✅       | ✅      | ✅         | ✅      | ✅       |
-Subjunctive | ✅       | -      | -         | ✅      | ✅       | -
-Imperative  |         | -      | -         |        | -       | -
+Indicative  | ✅      | ✅      | ✅        | ✅     | ✅       | ✅
+Subjunctive | ✅      | -       | -        | ✅      | ✅       | -
+Imperative  | ✅      | -       | -        | ✅      | -       | -
 Infinitive  |         |        | -         |        |         | -
 Participle  |         |        | -         |        |         | -
 

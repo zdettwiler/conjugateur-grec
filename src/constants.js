@@ -6,7 +6,10 @@ export const VOICE = {
 
 export const MOOD = {
   INDICATIVE: 'indicative',
-  SUBJUNCTIVE: 'subjunctive'
+  SUBJUNCTIVE: 'subjunctive',
+  IMPERATIVE: 'imperative',
+  INFINITIVE: 'infinitive',
+  PARTICIPLE: 'participle',
 }
 
 export const TENSE = {

@@ -16,6 +16,10 @@ export default function conjugate(verb) {
         present: conjugator(verb, VOICE.ACTIVE, MOOD.SUBJUNCTIVE, TENSE.PRESENT),
         aorist: conjugator(verb, VOICE.ACTIVE, MOOD.SUBJUNCTIVE, TENSE.AORIST),
         perfect: conjugator(verb, VOICE.ACTIVE, MOOD.SUBJUNCTIVE, TENSE.PERFECT),
+      },
+      imperative: {
+        present: conjugator(verb, VOICE.ACTIVE, MOOD.IMPERATIVE, TENSE.PRESENT),
+        aorist: conjugator(verb, VOICE.ACTIVE, MOOD.IMPERATIVE, TENSE.AORIST),
       }
     }
   }

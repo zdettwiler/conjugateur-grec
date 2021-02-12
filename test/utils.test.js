@@ -19,16 +19,28 @@ describe('getStem()', () => {
 
 describe('arrayToConjugationPattern()', () => {
   it('returns conjugation pattern object', () => {
-    expect(arrayToConjugationPattern(['', '', '', '', '', ''])).toEqual({
+    expect(arrayToConjugationPattern(['a', 'b', 'c', 'd', 'e', 'f'])).toEqual({
       sg: {
-        1: '',
-        2: '',
-        3: ''
+        1: 'a',
+        2: 'b',
+        3: 'c'
       },
       pl: {
-        1: '',
-        2: '',
-        3: ''
+        1: 'd',
+        2: 'e',
+        3: 'f'
+      }
+    })
+  })
+
+  it('returns no conjugation if undefined', () => {
+    expect(arrayToConjugationPattern([undefined, 'b', undefined, 'd', undefined, 'f'])).toEqual({
+      sg: {
+        2: 'b',
+      },
+      pl: {
+        1: 'd',
+        3: 'f'
       }
     })
   })
