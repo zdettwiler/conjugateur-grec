@@ -6,53 +6,53 @@ describe('Active', () => {
   describe('Subjunctive', () => {
     describe('Present', () => {
       it('Present - λυω', () => {
-        // expect(luo.active.subjunctive.present).toEqual({
-        //   sg: {
-        //     1: 'λυω',
-        //     2: 'λυεις',
-        //     3: 'λυει'
-        //   },
-        //   pl: {
-        //     1: 'λυομεν',
-        //     2: 'λυετε',
-        //     3: 'λυουσι(ν)'
-        //   }
-        // })
+        expect(luo.active.subjunctive.present).toEqual({
+          sg: {
+            1: 'λυω',
+            2: 'λυῃς',
+            3: 'λυῃ'
+          },
+          pl: {
+            1: 'λυωμεν',
+            2: 'λυητε',
+            3: 'λυωσι(ν)'
+          }
+        })
       })
     })
 
-    // describe('Aorist', () => {
-    //   it('Aorist - λυω', () => {
-    //     expect(luo.active.subjunctive.aorist).toEqual({
-    //       sg: {
-    //         1: 'λυσω',
-    //         2: 'λυσεις',
-    //         3: 'λυσει'
-    //       },
-    //       pl: {
-    //         1: 'λυσομεν',
-    //         2: 'λυσετε',
-    //         3: 'λυσουσι(ν)'
-    //       }
-    //     })
-    //   })
-    // })
+    describe('Aorist', () => {
+      it('Aorist - λυω', () => {
+        expect(luo.active.subjunctive.aorist).toEqual({
+          sg: {
+            1: 'λυσω',
+            2: 'λυσῃς',
+            3: 'λυσῃ'
+          },
+          pl: {
+            1: 'λυσωμεν',
+            2: 'λυσητε',
+            3: 'λυσωσι(ν)'
+          }
+        })
+      })
+    })
 
-    // describe('Perfect', () => {
-    //   it('Perfect - λυω', () => {
-    //     expect(luo.active.subjunctive.perfect).toEqual({
-    //       sg: {
-    //         1: 'ἐλυον',
-    //         2: 'ἐλυες',
-    //         3: 'ἐλυε(ν)'
-    //       },
-    //       pl: {
-    //         1: 'ἐλυομεν',
-    //         2: 'ἐλυετε',
-    //         3: 'ἐλυον'
-    //       }
-    //     })
-    //   })
-    // })
+    describe('Perfect', () => {
+      it('Perfect - λυω', () => {
+        expect(luo.active.subjunctive.perfect).toEqual({
+          sg: {
+            1: 'λελυκω',
+            2: 'λελυκῃς',
+            3: 'λελυκῃ'
+          },
+          pl: {
+            1: 'λελυκωμεν',
+            2: 'λελυκητε',
+            3: 'λελυκωσι(ν)'
+          }
+        })
+      })
+    })
   })
 })

@@ -40,6 +40,27 @@
       }
     },
 
+    "subjunctive": {
+      "present": {
+        "augment": "",
+        "suffix": "",
+        "endings": ["ω", "ῃς", "ῃ", "ωμεν", "ητε", "ωσι(ν)"]
+      },
+
+      "aorist": {
+        "augment": "",
+        "suffix": "σ",
+        "endings": ["ω", "ῃς", "ῃ", "ωμεν", "ητε", "ωσι(ν)"]
+      },
+
+      "perfect": {
+        "augment": "",
+        "suffix": "κ",
+        "reduplication": true,
+        "endings": ["ω", "ῃς", "ῃ", "ωμεν", "ητε", "ωσι(ν)"]
+      }
+    },
+
     "imperative": {
       "present": {
         "augment": "",

@@ -3,8 +3,8 @@
 ## Active
 .           | Present | Future | Imperfect | Aorist | Perfect | Pluperfect
 ------------|:-------:|:------:|:---------:|:------:|:-------:|:----------:
-Indicative  | ✅      | ✅      | ✅        | ✅     |         |
-Subjunctive |         | -      | -         |        |         | -
+Indicative  | ✅       | ✅      | ✅         | ✅      | ✅       |
+Subjunctive | ✅       | -      | -         | ✅      | ✅       | -
 Imperative  |         | -      | -         |        | -       | -
 Infinitive  |         |        | -         |        |         | -
 Participle  |         |        | -         |        |         | -
@@ -31,3 +31,10 @@ Participle  |         | -      | -         |        |         | -
 
 ## TODO
 - [ ] Simplify contractSuffix? Always ever used with σ?
+- [ ] 2nd Aorist verbs
+- [ ] -εω verbs
+- [ ] -αω verbs
+- [ ] -οω verbs
+- [ ] -μι verbs
+- [ ] better contraction function
+- [ ]
